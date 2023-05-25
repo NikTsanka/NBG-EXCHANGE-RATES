@@ -1,3 +1,5 @@
+package jsonparser;
+
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -11,7 +13,7 @@ import java.net.URLConnection;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-class NBGJsonParser {
+public class NBGJsonParser {
     private static final String URL_KA = "https://nbg.gov.ge/gw/api/ct/monetarypolicy/currencies/ka/json/?date=";
 
     public void startApp() {

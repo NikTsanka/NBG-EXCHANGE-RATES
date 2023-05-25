@@ -1,7 +1,7 @@
-package model.network;
+package data.network;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import model.data.CurrencyData;
+import data.network.model.CurrencyData;
 
 import java.io.IOException;
 import java.util.List;

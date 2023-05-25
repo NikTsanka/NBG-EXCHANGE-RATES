@@ -1,4 +1,5 @@
-import model.network.NetworkClient;
+import data.network.NetworkClient;
+import jsonparser.NBGJsonParser;
 
 public class Main {
     public static void main(String[] args) {
